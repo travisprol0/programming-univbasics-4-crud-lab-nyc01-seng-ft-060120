@@ -29,9 +29,9 @@ end
 def retrieve_first_element_from_array(array)
   array[0]
 end
-require 'pry'
+
 def retrieve_last_element_from_array(array)
-  binding.pry
+  array[5]
 end
 
 def update_element_from_index(array, index_number, element)
